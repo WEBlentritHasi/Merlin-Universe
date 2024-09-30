@@ -71,14 +71,18 @@ ul {
 
 span {
   font-family: 'Courgette', sans-serif;
-  margin-left: 10px;
+  color: gold;
+  margin: 10px;
 }
 
 span:hover {
-  color: #bc824a;
   cursor: pointer;
+  text-shadow: 0px 0px 1px #fff;
 }
 
+
+
+/* Merlin */
 
 .merlin-section {
   padding: 100px;
@@ -114,6 +118,8 @@ span:hover {
   border-radius: 20px;
 }
 
+/* MERLIN POWERS */
+
 .powers {
   text-align: center;
   color: #f2cc8e;
@@ -127,8 +133,7 @@ span:hover {
   height: 100px;
   background-size: cover;
   background-position: center;
-  border: 2px solid #771405;
-  box-shadow: -5px -5px 1px #f2cc8e;
+  margin-bottom: 30px;
 }
 
 .merlin-powers {
@@ -137,7 +142,10 @@ span:hover {
   justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
+  border-bottom: 6px solid #f2cc8e;
 }
+
+/* merlin's powers */
 
 .glowing-eyes {
   background-image: url(/Merlin-Fan-Page/powers/merlin.gif);
@@ -154,6 +162,57 @@ span:hover {
 .dragon {
   background-image: url(./powers/dragon.gif);
 }
+
+
+/* ARTHUR */
+
+.arthur-section {
+  padding: 100px;
+  gap: 52px;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.arthur-section img {
+  width: 600px;
+  border-radius: 20px;
+  box-shadow: 2px 6px 5px;
+}
+
+.arthur-section h2 {
+  color: goldenrod;
+  text-align: center;
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+
+
+
+.arthur-section p {
+  color: #bc824a;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 45px;
+  text-align: center;
+}
+
+.arthur-gif {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.arthur-camelot-img {
+  width: 900px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 1px goldenrod;
+}
+
+
+
+
 
 
 
