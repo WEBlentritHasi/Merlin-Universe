@@ -1,4 +1,7 @@
 # Merlin-Fan-Page
+
+![Merlin](images/camelot.jpg)
+
 Fan page about my favorite fantasy tv show called Merlin.
 
 Based on the the tv series, the website also has medieval, magical vibes to it.
