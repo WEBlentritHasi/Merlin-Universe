@@ -7,3 +7,27 @@
 body {
   font-family: 'Crimson Pro', sans-serif;
 }
+
+
+
+#logo {
+  font-size: 48px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+li, a {
+  list-style-type: none;
+}
+
+ul {
+  display: flex;
+  gap: 25px;
+  font-size: 20px;
+  cursor: pointer;
+}
