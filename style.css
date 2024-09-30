@@ -23,16 +23,15 @@ nav {
   color: #771405;
 }
 
-li, a {
-  list-style-type: none;
-}
-
-ul {
+a {
   display: flex;
   gap: 25px;
-  font-size: 20px;
+  font-size: 25px;
   cursor: pointer;
+  text-decoration: none;
+  color: #771405;;
 }
+
 
 .home-ul:hover,
 .images-ul:hover,
@@ -202,13 +201,84 @@ span:hover {
   align-items: center;
   justify-content: center;
   margin-bottom: 100px;
+  border-bottom: 6px solid #f2cc8e;
 }
 
 .arthur-camelot-img {
   width: 900px;
   border-radius: 20px;
   box-shadow: 1px 1px 1px goldenrod;
+  margin-bottom: 30px;
 }
+
+/* MORGANA */
+
+.morgana-section {
+    padding: 100px;
+    gap: 52px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.morgana-section img {
+  width: 600px;
+  border-radius: 20px;
+  box-shadow: 2px 6px 5px firebrick;
+}
+
+.morgana-section h2 {
+  color: darkred;
+  text-align: center;
+  font-size: 55px;
+  margin-bottom: 20px;
+  text-shadow: 0px 0px 2px #fff;
+}
+
+.morgana-section h2:hover {
+  color: #fff;
+  text-shadow: 0px 0px 2px #222;
+}
+
+.morgana-section p {
+  color: #bc824a;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 45px;
+  text-align: center;
+}
+
+/* morgana powers */
+
+.morgana-powers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  border-bottom: 6px solid #f2cc8e;
+}
+
+.morgana-glowing-eyes {
+  background-image: url("./powers/morgana.gif");
+}
+
+.morgana-power-two {
+  background-image: url("./powers/morgana2.gif");
+}
+
+.morgana-power-three {
+  background-image: url("./powers/morgana3.gif");
+}
+
+.morgana-power-four {
+  background-image: url("./powers/morgana4.gif");
+}
+
+
+
+
+
 
 
 
