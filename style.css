@@ -11,8 +11,8 @@ body {
 
 /* HEADER */
 
-#logo {
-  font-size: 48px;
+#logo img {
+  width: 300px;
 }
 
 nav {
@@ -45,13 +45,14 @@ ul {
 .site-desc {
   display: flex;
   align-items: center;
-  margin-top: 50px;
-  padding: 200px;
+  justify-content: center;
+  margin-top: 30px;
+  padding: 100px;
+  border: 2px solid red;
 }
 
 .show-description {
   display: flex;
-  justify-content: center;
   align-items: center;
   gap: 52px;
   padding: 50px;
@@ -70,9 +71,55 @@ ul {
 
 span {
   font-family: 'Courgette', sans-serif;
+  margin-left: 10px;
 }
 
 span:hover {
   color: #bc824a;
   cursor: pointer;
 }
+
+
+.merlin-section {
+  padding: 100px;
+  gap: 52px;
+  display: flex;
+  align-items: center;
+}
+
+.merlin-section h2 {
+  color: #771405;
+  text-align: center;
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+
+.merlin-section h2:hover {
+  border-bottom: 2px solid #f2cc8e;
+  cursor: pointer;
+}
+
+
+
+.merlin-section p {
+  color: #bc824a;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 45px;
+}
+
+
+.merlin-section img {
+  width: 600px;
+  border-radius: 20px;
+}
+
+.merlin-powers {
+  padding: 100px;
+  border: 2px solid red;
+}
+
+
+
+
+
