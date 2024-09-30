@@ -1,4 +1,3 @@
-# Merlin-Fan-Page
 
 ![Merlin](images/camelot.jpg)
 
