@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./images/camelot.jpg");
+  background-size: cover;
+  font-family: 'Nanum Myeongjo', sans-serif;
+  color: gold;
+  text-align: center;
+}
+
+#title, 
+h2 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.desc {
+  font-size: 30px;
+  text-shadow: -1px 1px 0px #fff;
+}
+
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px;
+}
+
+.default {
+  padding: 100px;
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 1px 1px 1px gold;
+}
+
+.cast {
+  padding: 50px;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.cast img {
+  width: 300px;
+  border-radius: 40px;
+  box-shadow: 1px 1px 1px gold;
+}
+
