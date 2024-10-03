@@ -272,7 +272,6 @@ span:hover {
 @media (max-width: 768px) {
   nav {
     flex-direction: column;
-    /* Stack navigation links vertically */
     align-items: center;
   }
 
@@ -281,18 +280,13 @@ span:hover {
   .arthur-section,
   .morgana-section {
     flex-direction: column;
-    /* Stack sections vertically */
     padding: 50px 20px;
-    /* Adjust padding for smaller screens */
   }
 
   .show-description {
     flex-direction: column;
-    /* Stack description vertically */
     align-items: center;
-    /* Center-align items */
     gap: 20px;
-    /* Reduce gap for smaller screens */
   }
 
   .show-description img,
@@ -300,30 +294,22 @@ span:hover {
   .arthur-section img,
   .morgana-section img {
     width: 100%;
-    /* Make images responsive */
     max-width: 400px;
-    /* Set a max width */
   }
 
   .merlin-powers,
   .morgana-powers {
     flex-direction: column;
-    /* Stack powers vertically */
   }
 
   .power {
     width: 80px;
-    /* Adjust power box width */
     height: 80px;
-    /* Adjust power box height */
     padding: 50px;
-    /* Adjust padding for power boxes */
   }
 
   .arthur-camelot-img {
     width: 100%;
-    /* Make image responsive */
     max-width: 400px;
-    /* Set a max width */
   }
 }
