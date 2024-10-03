@@ -1,7 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: 0;
+  box-sizing: border-box;
+  /* Corrected from 0 to border-box */
 }
 
 body {
@@ -29,9 +30,8 @@ a {
   font-size: 25px;
   cursor: pointer;
   text-decoration: none;
-  color: #771405;;
+  color: #771405;
 }
-
 
 .home-ul:hover,
 .images-ul:hover,
@@ -79,8 +79,6 @@ span:hover {
   text-shadow: 0px 0px 1px #fff;
 }
 
-
-
 /* Merlin */
 
 .merlin-section {
@@ -102,15 +100,12 @@ span:hover {
   cursor: pointer;
 }
 
-
-
 .merlin-section p {
   color: #bc824a;
   font-weight: bold;
   font-size: 25px;
   line-height: 45px;
 }
-
 
 .merlin-section img {
   width: 600px;
@@ -147,7 +142,7 @@ span:hover {
 /* merlin's powers */
 
 .glowing-eyes {
-  background-image: url(/Merlin-Fan-Page/powers/merlin.gif);
+  background-image: url(./powers/merlin.gif);
 }
 
 .fire-throw {
@@ -161,7 +156,6 @@ span:hover {
 .dragon {
   background-image: url(./powers/dragon.gif);
 }
-
 
 /* ARTHUR */
 
@@ -185,8 +179,6 @@ span:hover {
   font-size: 55px;
   margin-bottom: 20px;
 }
-
-
 
 .arthur-section p {
   color: #bc824a;
@@ -214,11 +206,11 @@ span:hover {
 /* MORGANA */
 
 .morgana-section {
-    padding: 100px;
-    gap: 52px;
-    display: flex;
-    align-items: center;
-    margin-top: 30px;
+  padding: 100px;
+  gap: 52px;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
 }
 
 .morgana-section img {
@@ -275,16 +267,63 @@ span:hover {
   background-image: url("./powers/morgana4.gif");
 }
 
+/* ---- MEDIA QUERY FOR RESPONSIVENESS ---- */
 
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    /* Stack navigation links vertically */
+    align-items: center;
+  }
 
+  .site-desc,
+  .merlin-section,
+  .arthur-section,
+  .morgana-section {
+    flex-direction: column;
+    /* Stack sections vertically */
+    padding: 50px 20px;
+    /* Adjust padding for smaller screens */
+  }
 
+  .show-description {
+    flex-direction: column;
+    /* Stack description vertically */
+    align-items: center;
+    /* Center-align items */
+    gap: 20px;
+    /* Reduce gap for smaller screens */
+  }
 
+  .show-description img,
+  .merlin-section img,
+  .arthur-section img,
+  .morgana-section img {
+    width: 100%;
+    /* Make images responsive */
+    max-width: 400px;
+    /* Set a max width */
+  }
 
+  .merlin-powers,
+  .morgana-powers {
+    flex-direction: column;
+    /* Stack powers vertically */
+  }
 
+  .power {
+    width: 80px;
+    /* Adjust power box width */
+    height: 80px;
+    /* Adjust power box height */
+    padding: 50px;
+    /* Adjust padding for power boxes */
+  }
 
-
-
-
-
-
-
+  .arthur-camelot-img {
+    width: 100%;
+    /* Make image responsive */
+    max-width: 400px;
+    /* Set a max width */
+  }
+}
